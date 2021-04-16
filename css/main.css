@@ -1,0 +1,95 @@
+*{
+     font-size: 17px;
+     font-family: "Montserrat", "Courier New", Courier;
+}
+
+a{
+     text-decoration: none;
+     color: black;
+}
+input:focus{
+     outline: none;
+}
+
+nav{
+     /* position: fixed; */
+     top: 0;
+     margin: 1rem;
+     height: 4rem;
+     background: #FFAEAE;
+     display: flex;
+     flex-direction: row;
+     justify-content:space-around;
+     align-items: center;
+     /* display: grid; */
+     /* grid-template-columns: 1fr 2.5fr 1fr 1fr 1fr; */
+     padding: 1rem 2rem;
+     border-radius: 4rem;
+}
+
+.brand{
+     /* background: yellow; */
+     /* margin-left: 3%; */
+     /* padding: 1rem; */
+}
+
+.nav-items{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.search-nav-item{
+     background: yellowgreen;
+     width: 40%;
+}
+.search-form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.search-bar{
+     width: 90%;
+     padding: 7px;
+     height: 2.25rem;
+     border: none;
+     border-top-left-radius: 3rem;
+     border-bottom-left-radius: 3rem;
+     background: whitesmoke;
+}
+
+.search-btn{
+     width: auto;
+     height: 2.25rem;
+     border: none;
+     border-left: solid 1px rgb(177, 177, 177);
+     border-top-right-radius: 3rem;
+     border-bottom-right-radius: 3rem;
+     background: whitesmoke;
+}
+
+
+.cart-btn{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.account-btn{
+     padding: 0.5rem 1rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: auto;
+     background: rgba(0, 0, 0, 0.082);
+     border-radius: 0.5rem;
+     cursor: pointer;
+}
+.user-image{
+     width: 2.5rem;
+     height: 2.5rem;
+     margin-left: 0.5rem;
+     background: gray;
+     border-radius: 50%;
+}
