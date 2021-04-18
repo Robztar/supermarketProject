@@ -3,7 +3,7 @@
      $dbUser = "root";
      $dbPwd = "";
      
-     // $dbName = "c_assign2";
+     // $dbName = "";
 
      //This connection wont work yet...it needs a database
      $conn = mysqli_connect($server, $dbUser, $dbPwd, $dbName);
