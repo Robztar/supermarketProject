@@ -1,9 +1,15 @@
 *{
      font-size: 17px;
      font-family: "Montserrat", "Courier New", Courier;
+     scroll-behavior: smooth;
 }
 
+/* Navbar Styling */
 a{
+     text-decoration: none;
+     color: black;
+}
+a:hover{
      text-decoration: none;
      color: black;
 }
@@ -12,9 +18,11 @@ input:focus{
 }
 
 nav{
-     /* position: fixed; */
+     position: fixed;
+     width: 98%;
      top: 0;
-     margin: 1rem;
+     z-index: 99;
+     margin: 1rem 1%;
      height: 4rem;
      background: #FFAEAE;
      display: flex;
@@ -24,23 +32,18 @@ nav{
      /* display: grid; */
      /* grid-template-columns: 1fr 2.5fr 1fr 1fr 1fr; */
      padding: 1rem 2rem;
-     border-radius: 4rem;
-}
-
-.brand{
-     /* background: yellow; */
-     /* margin-left: 3%; */
-     /* padding: 1rem; */
+     border: solid 2px white;
+     border-radius: 5rem;
 }
 
 .nav-items{
      display: flex;
      justify-content: center;
      align-items: center;
+     /* background: tomato; */
 }
 
 .search-nav-item{
-     background: yellowgreen;
      width: 40%;
 }
 .search-form{
@@ -84,7 +87,7 @@ nav{
      width: auto;
      background: rgba(0, 0, 0, 0.082);
      border-radius: 0.5rem;
-     cursor: pointer;
+     /* cursor: pointer; */
 }
 .user-image{
      width: 2.5rem;
@@ -92,4 +95,14 @@ nav{
      margin-left: 0.5rem;
      background: gray;
      border-radius: 50%;
+}
+
+hr{
+     height: 2px;
+     background: #008A27;
+}
+
+/* Footer styling */
+footer{
+     background: #FFAEAE;
 }
