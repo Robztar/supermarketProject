@@ -20,53 +20,39 @@
 
      <!-- <link rel="icon" href="ENTER PATCH HERE" type="image/x-icon"> -->
      <title>Dash Supermarket | Account Page</title>
+     <style>
+          section{
+               height: 95vh;
+               width: 100%;
+               position: relative;
+               padding: 5rem;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: space-around;
+
+          }
+          a{
+               text-decoration: none;
+               color: white;
+               margin: 5rem 3rem;
+               padding: 1rem;
+               border-radius: 1rem;
+          }
+          a:hover{
+               text-decoration: none;
+               color: white;
+          }
+     </style>
 </head>
 <body>
-     <nav>
-          <div class="brand nav-items">
-               <a href="index.php"><span>DASH</span> Supermarket</a>
-          </div>
-          <div class="search-nav-item">
-               <form class="search-form">
-                    <input class="search-bar" type="search" placeholder="Search" aria-label="Search">
-                    <button class="search-btn" type="submit">*search*</button>
-               </form>
-          </div>
-          <!-- <div class="nav-tems">
-               <a href="#" class="nav-items">Store</a>
-          </div> -->
-          <a href="store.php" class="nav-items">Store</a>
-          <a href="shopcart.php"  class="cart-btn">
-               <div>*insert cart icon*</div>
-               <div>Cart (0)</div>
-          </a>
-          <a href="myaccount.php" class="account-btn">
-               <div>Account</div>
-               <div class="user-image"></div>
-          </a>
-     </nav>
-     <footer>
+     <section>
+          <h1>Are you sure you would like to log out (Person's name)</h1>
           <div>
-               <h4>Contact Us</h4>
-               <hr>
-               <p>Tel. </p>
+               <a href="./controller/del-acc.php" style="background: rgb(255, 68, 68);">Yes. Log me out.</a>
+               <a href="./index.php" style="background: rgb(0, 192, 0);">No. Take me back.</a>
           </div>
-          <div>
-               <h4>Location</h4>
-               <hr>
-               <p>.... </p>
-          </div>
-          <div>
-               <h4>Follow Us</h4>
-               <hr>
-               <p>... </p>
-          </div>
-          <div>
-               <h4>Navigate</h4>
-               <hr>
-               <p>Home </p>
-          </div>
-     </footer>
+     </section>
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

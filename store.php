@@ -45,6 +45,7 @@
                <div class="user-image"></div>
           </a>
      </nav>
+     <h1 style="margin-top: 5rem;">IGNORE PAGE (FOR NOW)</h1>
      <footer>
           <div>
                <h4>Contact Us</h4>
