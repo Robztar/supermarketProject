@@ -20,7 +20,7 @@
                     <br>
                     <input type="text" name="lname" placeholder="Last Name" required> 
                     <br>
-                    <input type="text" name="email" placeholder="Email" required> 
+                    <input type="email" name="email" placeholder="Email" required> 
                     <br>
                     <input type="password" name="pwd" placeholder="Password" required> 
                     <br>
@@ -34,7 +34,7 @@
           <div class="log-in-form form">
                <h2>Log In</h2>
                <form action="./controller/login.php" method="post">
-                    <input type="text" name="email" placeholder="Email" required> 
+                    <input type="email" name="email" placeholder="Email" required> 
                     <br>
                     <input type="password" name="pwd" placeholder="Password" required> 
                     <br>

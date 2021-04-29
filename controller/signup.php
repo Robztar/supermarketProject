@@ -14,20 +14,17 @@
           require_once 'dbh.php';
           require_once 'vfunc.php';
 
-          if(invalidEmail($email) !== false){
-               header("location: ../gateway.php?error=email");
-               exit();
-          }
-
           if($pwd !== $cpwd){
                header("location: ../gateway.php?error=confirm");
                exit();
           }
 
-          if(emailExists($userconn, $email) !== false){
+          if(emailExists($conn, $email) !== false){
                header("location: ../gateway.php?error=emailexists");
                exit();
           }
 
-          userSetup($userconn,$fname,$lname,$email,$pwd);
+          
+
+          userSetup($conn,$fname,$lname,$email,$pwd);
      }

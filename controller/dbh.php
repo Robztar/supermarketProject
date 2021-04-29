@@ -2,15 +2,23 @@
      $server = "localhost";
      $dbUser = "root";
      $dbPwd = "";
-     
-     // $dbName = "";
+     $dbName = "fresh_market";
 
-     //This connection wont work yet...it needs a database
      $conn = mysqli_connect($server, $dbUser, $dbPwd, $dbName);
 
-     if (!$userconn) {
-          die(mysqli_error($userconn));
+     if (!$conn) {
+          die(mysqli_error($conn));
      }
 
      // header("location: ../gateway.php");
      // exit();
+
+
+     // Database Creation
+     // CREATE TABLE customers(
+     //      custumerID int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+     //     fname VARCHAR(128) NOT NULL,
+     //     lname VARCHAR(128) NOT NULL,
+     //     email VARCHAR(128) NOT NULL,
+     //     pword VARCHAR(128) NOT NULL
+     // );

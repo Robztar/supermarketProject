@@ -1,8 +1,8 @@
 <?php
-     // session_start();
+     session_start();
 
-     // if (!isset($_SESSION["mId"])) {
-     //      header("location: gateway.php");
+     // if (!isset($_SESSION["id"])) {
+     //      header("location: ./gateway.php");
      //      exit();
      // }
 ?>
@@ -23,8 +23,14 @@
 </head>
 
 <body>
+	<?php
+		if (!isset($_SESSION["id"])) {
+			header("location: ./gateway.php");
+			exit();
+		}
+	?>
 	<div class="parallax">
-	     <div class="page-title"><h1>Fresh Mart</h1></div>
+		<div class="page-title"><h1>Fresh Mart</h1></div>
 	</div>
 	<div class="topnav" class="menu" id="sticky">
 		<ul class="menu-ul">
@@ -2246,6 +2252,3 @@
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
      </body>
 </html>
-<?php
-     // session_destroy();
-?>
