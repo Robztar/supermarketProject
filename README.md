@@ -14,7 +14,7 @@ The group members that contributed to this project are:
 ## Website - Fresh Mart 
 
 ##### See demo below:
-[![FreshMart Image](IMAGE-LINK)](YOUTUBE EMBED LINK)
+[![FreshMart Image](FreshMart-demo-shot.png)](https://youtu.be/Ua9_-t_BxtQ)
 
 This is a website that caters the needs of shoppers that wish to shop online and receive their products without going inside the supermarket.
 
