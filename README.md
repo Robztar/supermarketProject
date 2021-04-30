@@ -14,7 +14,7 @@ The group members that contributed to this project are:
 ## Website - Fresh Mart 
 
 #### See demo below:
-[![FreshMart Image](FreshMart-demo-shot.png)](https://youtu.be/Ua9_-t_BxtQ)
+[![FreshMart Image](FreshMart-demo-shot.png)](https://www.youtube.com/embed/Ua9_-t_BxtQ)
 
 This is a website that caters the needs of shoppers that wish to shop online and receive their products without going inside the supermarket.
 
@@ -23,7 +23,7 @@ This is a website that caters the needs of shoppers that wish to shop online and
 * ### User Authentication Page
 This is the first page a new user will see. Here they will be required to sign up or log in before gaining access to the site's services. 
 
-* ### Index
+* ### Index Page
 The purpose of this page is welcome the users to the official Fresh Mart website. A button will then take them to the homepage.
 
 * ### Home Page
