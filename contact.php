@@ -1,7 +1,7 @@
 <?php
      session_start();
 
-     if (!isset($_SESSION["id"])) {
+     if (!isset($_SESSION["id"])){
           header("location: ./gateway.php");
           exit();
      }
@@ -9,7 +9,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Contact Form Design </title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title> Fresh Mart | Contact Page</title>
 	<link rel="stylesheet" type="text/css" href="./style/style.css">
 </head>
 
@@ -38,7 +41,7 @@
                
                <input type="submit" class="form-control submit" value="SEND MESSAGE"><br>
           </form>
-          <a href="./index.php">Return to home</a>
+          <a href="./homepage.php">Return to home</a>
      </div>
 </body>
 </html>

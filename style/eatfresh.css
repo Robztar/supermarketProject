@@ -3,7 +3,7 @@ body{
 	}
 	
 .parallax, .parallax1{
-	background-image: url(../res/grocery.jpg);
+	background-image: url(../image/grocery.jpg);
 	height: max-content;
 	background-attachment: fixed;
 	background-position: center;
@@ -41,7 +41,7 @@ body{
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 14px;
 }
 
   /* Change the color of links on hover */
@@ -83,7 +83,7 @@ body{
 	color: white;
 }
 
-.menu-ul li:hover{
+.menu-ul li hover{
 	background: white;
 	transform: scale(1.1);
 }
@@ -119,8 +119,8 @@ body{
 }
 
 .column {
-  flex: 50%;
-  padding: 5px;
+	flex: 50%;
+	padding: 5px;
 }
 
 .container, .deals-container{
@@ -187,7 +187,7 @@ a{
 	border-radius: 20px;
 }	
 
-.coupon-btn: hover{
+.coupon-btn hover{
 	box-shadow:0 0 10px 5px white inset;
 }
 
@@ -196,9 +196,8 @@ a{
 }
 
 .item-image-size{
-	width:200px;
-	/* height:auto; */
 	height:200px;
+	width:200px;
 	padding:5px;
 }
 
@@ -228,7 +227,7 @@ a{
 }
 
 .parallax1 {
-	background-image:url('../res/footerbg.jpg');
+	background-image:url('../image/footerbg.jpg');
 }
 
 .footer{
@@ -238,7 +237,7 @@ a{
 }
 
 .quick-links{
-	color: rgb(0, 0, 0);
+	color: white;
 	font-size: 20px;
 	font-weight: bold;
 	display: inline-block;
@@ -247,9 +246,6 @@ a{
 
 .quick-links ul {
 	padding:0;
-}
-.quick-links .a-links{
-	color: black;
 }
 
 .quick-links li {
@@ -268,3 +264,91 @@ a{
 	text-align: center;
 	margin:px;
 }
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 5px 5px 0 0;
+}
+
+.card:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

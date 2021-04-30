@@ -1,6 +1,6 @@
 body{
      overflow: hidden;
-     background: url(../res/food-bowl.jpg) no-repeat;
+     background: url(../image/food-bowl.jpg) no-repeat;
      background-size: cover;
      /* background: linear-gradient(45deg, #ffff00,#008080); */
      font-size: 20px;

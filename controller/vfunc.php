@@ -39,6 +39,7 @@
           $_SESSION["id"]= emailExists($connection, $email)["custumerID"];
           $_SESSION["fname"]=emailExists($connection, $email)["fname"];
           $_SESSION["lname"]=emailExists($connection, $email)["lname"];
+          $_SESSION["email"]=emailExists($connection, $email)["email"];
 
           header("location: ../index.php?success");
           exit();
@@ -58,6 +59,7 @@
                $_SESSION["id"]=$verify["custumerID"];
                $_SESSION["fname"]=$verify["fname"];
                $_SESSION["lname"]=$verify["lname"];
+               $_SESSION["email"]=$verify["email"];
                header("location: ../index.php?success");
                exit();
           }
@@ -66,6 +68,3 @@
                exit();
           }
      }
-     
-     // header("location: ../gateway.php");
-     // exit();

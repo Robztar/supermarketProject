@@ -10,10 +10,6 @@
           die(mysqli_error($conn));
      }
 
-     // header("location: ../gateway.php");
-     // exit();
-
-
      // Database Creation
      // CREATE TABLE customers(
      //      custumerID int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
