@@ -1,10 +1,10 @@
 <?php
-     // session_start();
+     session_start();
 
-     // if (!isset($_SESSION["mId"])) {
-     //      header("location: gateway.php");
-     //      exit();
-     // }
+     if (!isset($_SESSION["id"])) {
+          header("location: gateway.php");
+          exit();
+     }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,9 +47,13 @@
 </head>
 <body>
      <section>
-          <h1>Are you sure you would like to log out (Person's name)</h1>
+          <h1>Are you sure you would like to log out 
+               <?php 
+                    echo $_SESSION["fname"]." ". $_SESSION["lname"];
+               ?>?
+          </h1>
           <div>
-               <a href="./controller/del-acc.php" style="background: rgb(255, 68, 68);">Yes. Log me out.</a>
+               <a href="./controller/close-acc.php" style="background: rgb(255, 68, 68);">Yes. Log me out.</a>
                <a href="./index.php" style="background: rgb(0, 192, 0);">No. Take me back.</a>
           </div>
      </section>
