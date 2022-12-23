@@ -16,13 +16,13 @@
           <div class="sign-up-form form">
                <h2>Sign Up</h2>
                <form action="./controller/signup.php" method="post">
-                    <input type="text" name="fname" placeholder="First Name" required> 
+                    <input type="text" name="fname" placeholder="First Name" required>
                     <br>
-                    <input type="text" name="lname" placeholder="Last Name" required> 
+                    <input type="text" name="lname" placeholder="Last Name" required>
                     <br>
-                    <input type="email" name="email" placeholder="Email" required> 
+                    <input type="email" name="email" placeholder="Email" required>
                     <br>
-                    <input type="password" name="pwd" placeholder="Password" required> 
+                    <input type="password" name="pwd" placeholder="Password" required>
                     <br>
                     <input type="password" name="cpwd" placeholder="Confirm Password" required> 
                     <br>
